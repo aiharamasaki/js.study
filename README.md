@@ -2,15 +2,6 @@
 ■事前準備
 Gitをインストール（https://git-scm.com/download/winからダウンロード）
 
-■コミット
-$ git add .
-$ git commit
-　a（挿入）
-　コミットメッセージを入力
-　Esc
-　:wq
-　Enter
-
 ＜GitHub環境の構築＞
 ■事前準備
 GitHubのアカウント登録
@@ -36,7 +27,15 @@ $ vi config
 $ ssh -T github（うまくいったかを確認）
 
 ■VScodeでリモートレポジトリへpush
-
+$ git init
+$ git add .
+$ git commit
+　a（挿入）
+　コミットメッセージを入力
+　Esc
+　:wq
+　Enter
+$ git branch -M master
 $ git remote add origin git@github.com:aiharamasaki/js.study.git
 $ git push -u origin master
 

@@ -8,7 +8,6 @@ const readline = require('readline').createInterface({
 readline.question('最小値はいくつですか？ ', (answer1) => {
   readline.question('最大値はいくつですか？ ', (answer2) => {
 
-    console.log(answer1,answer2);
     var random = getRandom(answer1,answer2);
     console.log(random);
   
