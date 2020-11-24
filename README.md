@@ -1,18 +1,20 @@
-＜Git環境の構築＞
-■事前準備
+## ＜Git環境の構築＞
+### ■事前準備
 Gitをインストール（https://git-scm.com/download/winからダウンロード）
 
-＜GitHub環境の構築＞
-■事前準備
-GitHubのアカウント登録
-GitHubでリポジトリを作成
-GitHubでSSH Keyの作成
+## ＜GitHub環境の構築＞
+### ■事前準備
+1. GitHubのアカウント登録
+2. GitHubでリポジトリを作成
+3. GitHubでSSH Keyの作成
+```
 　$ cd ~/.ssh
 　$ ssh-keygen -t rsa
 　$ github_id_rsa
 　Enter
 　Enter
 　github_id_rsa.pubをvscodeで開き内容をコピーして、GithubのSSH Keysへペーストして登録
+```
 
 ■GitBashでconfigの設定
 $ touch config
