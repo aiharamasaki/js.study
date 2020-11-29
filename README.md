@@ -42,6 +42,7 @@ $ git commit
 　Enter
 $ git branch -M master
 $ git remote add origin git@github.com:aiharamasaki/js.study.git
+※fatal: remote origin already exists.というエラーが出たら、$ git remote rm originでoriginを削除
 $ git push -u origin master
 ```
 
