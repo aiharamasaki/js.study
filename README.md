@@ -16,7 +16,7 @@ Gitをインストール（https://git-scm.com/download/winからダウンロー
 　github_id_rsa.pubをvscodeで開き内容をコピーして、GithubのSSH Keysへペーストして登録
 ```
 
-##■GitBashでconfigの設定
+### ■GitBashでconfigの設定
 ```
 $ touch config
 $ vi config
@@ -30,7 +30,7 @@ $ vi config
 $ ssh -T github（うまくいったかを確認）
 ```
 
-##■VScodeでリモートレポジトリへpush
+### ■VScodeでリモートレポジトリへpush
 ```
 $ git init
 $ git add .
@@ -45,7 +45,7 @@ $ git remote add origin git@github.com:aiharamasaki/js.study.git
 $ git push -u origin master
 ```
 
-##■コミット＆プッシュ
+### ■コミット＆プッシュ
 ```
 $ git add .
 $ git commit
@@ -57,7 +57,7 @@ $ git commit
 $ git push
 ```
 
-###＜Git branch（ひくラジ）＞
+## ＜Git branch（ひくラジ）＞
 ```
 $ git checkout develop
 $ Git pull
