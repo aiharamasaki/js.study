@@ -29,6 +29,11 @@ $ vi config
 　:wq
 $ ssh -T github（うまくいったかを確認）
 ```
+### ■リモートレポジトリからpull
+```
+$ git pull origin YOUR_BRANCH_NAME
+# オンライン更新をつかみ、ローカル作業にマージする
+```
 
 ### ■VScodeでリモートレポジトリへpush
 ```
