@@ -61,6 +61,7 @@ $ git commit
 　:wq
 　Enter
 $ git push
+→　$ git push origin HEAD:post
 ```
 
 ## ＜Git branch（ひくラジ）＞
