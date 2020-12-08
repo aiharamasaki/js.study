@@ -76,3 +76,7 @@ $ git push --set-upstream origin feature/credit_00
 画面左からコミット＆プッシュ
 githubのPull reqests→create pull requests
 ```
+```
+$ git reset (--hard)
+$ git checkout -b post origin/post
+```
